@@ -11,6 +11,7 @@ body {
 footer {
     display: block;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
     background-color: white;
@@ -22,6 +23,7 @@ footer {
 
 .copyright {
     font-size: 20px;
+    max-width: 100%;
     
 }
 .active {
