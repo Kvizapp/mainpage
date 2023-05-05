@@ -115,7 +115,7 @@ const question = [
             ]
         },
         {
-            question: 'Mit takar a következő meghatározás? "Iparszervezési forma és érdekvédelmi szervezet Nyugat-Európában a XI–XII."',
+            question: '"Iparszervezési forma és érdekvédelmi szervezet Nyugat-Európában a XI–XII."',
             answers: [
                 { text: 'földesúri rendszer', correct: false},
                 { text: 'felhőkarcoló', correct: false},
@@ -168,15 +168,7 @@ const question = [
                 { text: '1868', correct: false}
             ]
         },
-        {
-            question: 'Kik/Mik azok a girondiak?',
-            answers: [
-                { text: 'Egy birodalomépítő, gyarmatosító politika.', correct: false},
-                { text: 'A mérsékelt köztársaságpártiak politikai csoportja a francia forradalom idején.', correct: true},
-                { text: 'Az idegen területek meghódítása és birtokbavétele.', correct: false},
-                { text: 'Egy birodalomromboló, gyarmatosító politika.', correct: false}
-            ]
-        },
+       
         {
             question: 'Mettől meddig tartott Bonaparte Napóleon császársága?',
             answers: [

@@ -135,3 +135,49 @@ body.wrong {
         display: none;
     }
 }
+@media screen and (max-width: 762px) {
+    .btn-grid {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 5px;
+        margin: 0;
+        
+    }
+    #question {
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+
+    }
+    .container {
+        top: 0%;
+        left: 50%;
+        width: 35em;
+        height: 18em;
+        margin-top: -9em;
+        margin-left: -15em;
+        margin-top: 0.6rem;
+        margin-bottom: 0rem;
+        position: fixed;
+    }
+    .next-btn, .start-btn {
+        padding: 10px;
+        margin: 1px;
+        font-size: 1.2rem;
+    }
+    /*
+    .next-btn2 {
+        display: var();
+    }
+    */
+}
+/*.arrowimg {
+    width: 20px;
+    height: 20px;
+    
+}
+.next-btn2 {
+    display: none;
+}
+*/

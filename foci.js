@@ -134,15 +134,7 @@ const question = [
                 { text: 'Kína', correct: true}
             ]
         },
-        {
-            question: 'Melyek Kenya nemzeti nyelvei?',
-            answers: [
-                { text: 'xhosa, szuahéli és angol', correct: false},
-                { text: 'xhosa, afrikaans és angol', correct: false},
-                { text: 'szuahéli és angol', correct: true},
-                { text: 'zulu és angol', correct: false}
-            ]
-        },
+       
         {
             question: 'Melyik a világ legnagyobb országa?',
             answers: [
