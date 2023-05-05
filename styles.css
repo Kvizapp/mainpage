@@ -130,3 +130,8 @@ body.wrong {
     padding-bottom: 35px;
     padding-right: 35px;
 }
+@media screen and (max-height: 762px) {
+    h1 {
+        display: none;
+    }
+}
