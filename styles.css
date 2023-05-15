@@ -4,7 +4,7 @@
 }
 
 :root {
-    --hue-neutral: 200;     
+    --hue-neutral: 600;     
     --hue-wrong: 0;
     --hue-correct: 145; 
 }
@@ -13,7 +13,7 @@ body {
     --hue: var(--hue-neutral);
     padding: 0;
     margin: 0;
-    background-color: #1795A8; 
+    background-color: hsl(var(--hue), 90%, 60%); 
 }
 
 body.correct {
