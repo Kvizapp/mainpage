@@ -1,0 +1,30 @@
+.content {
+    text-align: center;
+    margin-top: 15px;
+    
+    
+}
+.elsosor {
+    margin-top: 300px;
+    top: 50%;
+}
+.title {
+    text-align: center;
+    margin-top: 40px;
+}
+.gomb {
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.gomb:hover {
+    color: white;
+    background-color: black;
+}
+body {
+    background-color: lightblue;
+}
+.box {
+    background-color: blueviolet;
+    height: 400px;
+    width: 300px;
+}

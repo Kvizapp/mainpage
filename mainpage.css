@@ -18,7 +18,8 @@ footer {
     color: black;
     text-align: center;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 50px;
+    height: 100px;
  }
 
 .copyright {
@@ -67,7 +68,7 @@ footer {
     height: 789px;
 }
 .special-btn {
-    background: linear-gradient(90deg, rgb(225,24,9) 0%, rgb(240, 221, 6) 100% );
+    background: linear-gradient(90deg, rgb(20, 53, 241) 0%, rgb(193, 6, 240) 100% );
     border: 2px solid black;
 }
 .rolunk-btn {
@@ -78,9 +79,51 @@ footer {
 .gomb2 {
     
     margin-bottom: 10px;
-    opacity: 0.85;
+    opacity: 0.95;
+    color: white;
     
 }
 .gomb2:hover {
     opacity: 1;
+    color: white;
+    box-shadow: 0 1rem 2rem 0 rgba(14, 101, 233, 0.5);
 }
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+body {
+    animation: transitionIn 0.75s;
+}
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+ }
+ 
+ .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+ }
+ .kartya1 {
+    transition-delay: 200ms;
+ }
+ .kartya2 {
+    transition-delay: 400ms;
+ }
+ 
+ .kartya5 {
+    transition-delay: 750ms;
+ }
+ 
+

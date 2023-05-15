@@ -1,0 +1,23 @@
+.box {
+    border: 0.2rem solid black;
+  }
+  .font {
+    font-size: 19px;
+  }
+  body {
+    background-color: #2F9FC3;
+  }
+
+  .gomb {
+    border-radius: 20px;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px 2px;
+    position:absolute;
+    bottom: 5%;
+    left:2%;
+   
+}
+
+.gomb:hover {
+    color: blue;
+}
