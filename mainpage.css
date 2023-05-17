@@ -8,20 +8,26 @@ body {
     background-color: #bdbdbd;
     color: #000000;
 }
-footer {
-    display: block;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
+.footer {
     background-color: white;
-    color: black;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50px;
-    height: 100px;
  }
-
+.footer-p {
+    margin-left: 0.8rem;
+}
+.footer-icons {
+    margin-right: 0.8rem;
+}
+@media screen and (max-width: 950px) {
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+     }
+}
 .copyright {
     font-size: 20px;
     max-width: 100%;
